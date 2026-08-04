@@ -1,0 +1,70 @@
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, a4paper]{russell}
+% \usepackage{fontawesome}
+\usepackage{hyperref}
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=.2cm, footskip=.1cm}    %Ph.D.
+% \geometry{left=1.4cm, top=2cm, right=1.4cm, bottom=1.5cm, footskip=.5cm}  % Short  
+\geometry{left=1.4cm, top=1.5cm, right=1.4cm, bottom=.6cm, footskip=.5cm}   % long
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{000000}   %3333ff
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+\definecolor{darktext}{HTML}{050505}    % University name
+\definecolor{text}{HTML}{000000}        % rest of the text 
+\definecolor{graytext}{HTML}{000000}    % Degree
+\definecolor{lighttext}{HTML}{000000}   % Address
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[round,edge,right]{./examples/profile}
+\name{\textbf{TAUFIQUL HAQUE}}{\textbf{KHAN}}
+% \position{AI Engineer{\enskip\cdotp\enskip}LLMs Expert}
+% \address{Dhaka 1750, Bangladesh}
+% \mobile{+880 1811 964562}
+\homepage{https://taufiq.cc/}
+\email{contact@taufiq.cc}
+\github{github.com/2ufiq}
+\linkedin{linkedin.com/in/taufiq-khan-tusar}
+% \googlescholar{fhbEomUAAAAJ}{scholar.google.com/citations?user=fhbEomUAAAAJ}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+\makecvheader
+\input{cv/skills.tex}
+\input{cv/experience}
+\input{cv/projects_short}
+\input{cv/publication.tex}
+\input{cv/education.tex}
+\input{cv/extracurricular}
+\input{cv/conferences}
+\input{cv/blog}
+% \input{cv/reference.tex}
+
+\vspace*{\fill}
+\end{document}
