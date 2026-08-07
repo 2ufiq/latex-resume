@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  7 AUG 2026 14:50
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  7 AUG 2026 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -979,9 +979,9 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
 ) (./cv/publication.tex)
-(./cv/education.tex [1
+(./cv/education.tex) (./cv/extracurricular.tex [1
 
-]) (./cv/extracurricular.tex) (./cv/conferences.tex
+]) (./cv/conferences.tex
 Overfull \hbox (6.19292pt too wide) in paragraph at lines 8--9
 []\TU/SourceSansPro(1)/b/n/10 Presenter, \TU/SourceSansPro(0)/m/n/10 Internatio
 nal Conference on Electronics, Communications and Information Technology, 2021,
@@ -997,7 +997,7 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  33367 strings out of 476878
  677690 string characters out of 5805250
- 1947627 words of memory out of 5000000
+ 1946627 words of memory out of 5000000
  54674 multiletter control sequences out of 15000+600000
  560887 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
