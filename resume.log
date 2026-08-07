@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  7 AUG 2026 13:44
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  7 AUG 2026 14:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -960,19 +960,19 @@ Overfull \hbox (20.1288pt too wide) in alignment at lines 11--37
 
 ) (./cv/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 15.
+(Font)              scaled to size 11.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 15.
+(Font)              scaled to size 11.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 15.
+(Font)              scaled to size 9.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 15.
+t line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 15.
+(Font)              scaled to size 9.0pt on input line 16.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 15.
+(Font)              scaled to size 10.0pt on input line 16.
 ) (./cv/projects_short.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
@@ -997,7 +997,7 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  33367 strings out of 476878
  677690 string characters out of 5805250
- 1946627 words of memory out of 5000000
+ 1947627 words of memory out of 5000000
  54674 multiletter control sequences out of 15000+600000
  560887 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
