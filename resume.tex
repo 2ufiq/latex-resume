@@ -22,12 +22,13 @@
 % Uncomment if you would like to specify your own color
 % \definecolor{russell}{HTML}{000000}   %3333ff
 
-% Colors for text
-% Uncomment if you would like to specify your own color
-\definecolor{darktext}{HTML}{050505}    % University name
-\definecolor{text}{HTML}{000000}        % rest of the text 
-\definecolor{graytext}{HTML}{000000}    % Degree
-\definecolor{lighttext}{HTML}{000000}   % Address
+% Colors for text - override class defaults
+\AtBeginDocument{%
+  \definecolor{darktext}{HTML}{050505}    % University name
+  \colorlet{text}{black}                  % rest of the text
+  \colorlet{graytext}{black}             % Degree
+  \colorlet{lighttext}{black}            % Address
+}
 
 % Set false if you don't want to highlight section with russell color
 \setbool{acvSectionColorHighlight}{true}
@@ -44,7 +45,7 @@
 % \photo[round,edge,right]{./examples/profile}
 \name{\textbf{TAUFIQUL HAQUE}}{\textbf{KHAN}}
 % \position{AI Engineer{\enskip\cdotp\enskip}LLMs Expert}
-% \address{Dhaka 1750, Bangladesh}
+\address{Dhaka 1750, Bangladesh}
 % \mobile{+880 1811 964562}
 \homepage{https://taufiq.cc/}
 \email{contact@taufiq.cc}
