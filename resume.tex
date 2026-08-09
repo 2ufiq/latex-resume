@@ -37,6 +37,9 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+% Fix address style — remove italic, use body font
+\renewcommand*{\headeraddressstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\color{text} #1}}
+
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
