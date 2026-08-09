@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  9 AUG 2026 21:53
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  9 AUG 2026 22:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -978,26 +978,23 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-) (./cv/publication.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 1.
+ [1
 
-[1
-
-]) (./cv/education.tex) (./cv/extracurricular.tex) (./cv/conferences.tex)
-(./cv/blog.tex) [2] (./resume.aux)
+]) (./cv/publication.tex)
+(./cv/education.tex) (./cv/extracurricular.tex) (./cv/conferences.tex)
+(./cv/blog.tex [2]) [3] (./resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33370 strings out of 476878
- 677769 string characters out of 5805250
+ 33369 strings out of 476878
+ 677743 string characters out of 5805250
  1951627 words of memory out of 5000000
- 54676 multiletter control sequences out of 15000+600000
+ 54675 multiletter control sequences out of 15000+600000
  560887 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 116i,12n,129p,585b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,129p,585b,585s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on resume.pdf (2 pages).
+Output written on resume.pdf (3 pages).
