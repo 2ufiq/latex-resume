@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  10 AUG 2026 03:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  10 AUG 2026 13:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,13 +976,13 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 4.
-) (./cv/publication.tex
+) (./cv/extracurricular.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 14.0pt on input line 1.
+(Font)              scaled to size 14.0pt on input line 3.
 
 [1
 
-]) (./cv/education.tex) (./cv/extracurricular.tex) (./cv/conferences.tex)
+]) (./cv/education.tex) (./cv/publication.tex) (./cv/conferences.tex)
 (./cv/blog.tex) [2] (./Resume_Taufiq.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
