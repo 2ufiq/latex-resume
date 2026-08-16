@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  16 AUG 2026 20:51
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  16 AUG 2026 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,14 +849,14 @@ LaTeX Font Info:    ... okay on input line 66.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(35.56593pt, 526.376pt, 35.56593pt)
-* v-part:(T,H,B)=(28.45274pt, 802.36774pt, 14.22636pt)
+* v-part:(T,H,B)=(35.56593pt, 795.25455pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=526.376pt
-* \textheight=802.36774pt
+* \textheight=795.25455pt
 * \oddsidemargin=-36.70406pt
 * \evensidemargin=-36.70406pt
-* \topmargin=-80.81725pt
+* \topmargin=-73.70406pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -989,10 +989,10 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  33365 strings out of 476878
  677655 string characters out of 5805250
- 1952627 words of memory out of 5000000
+ 1951627 words of memory out of 5000000
  54672 multiletter control sequences out of 15000+600000
  560879 words of font info for 127 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 116i,11n,129p,585b,578s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,129p,585b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on Resume_Taufiq.pdf (2 pages).
