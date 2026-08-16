@@ -1,0 +1,109 @@
+
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, a4paper]{russell}
+% \usepackage{fontawesome}
+% \usepackage{hyperref}
+\usepackage{fontawesome5}
+
+% Add this near the top (after \usepackage{fontawesome5})
+% PAGE NUMBER
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot[C]{\textcolor{gray}{\small \thepage}}
+\renewcommand{\headrulewidth}{0pt} % remove top line
+\renewcommand{\footrulewidth}{0pt} % remove bottom line
+% PAGE NUMBER
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=1.5cm, right=1.4cm, bottom=.2cm, footskip=.5cm}    %Ph.D.
+\geometry{left=1.4cm, top=2cm, right=1.4cm, bottom=1.5cm, footskip=.8cm}  % Short  
+% \geometry{left=1.35cm, top=1cm, right=1.35cm, bottom=.5cm, footskip=.5cm}   % long
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{000000}   %3333ff
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+\definecolor{darktext}{HTML}{050505}    % University name
+\definecolor{text}{HTML}{000000}        % rest of the text 
+\definecolor{graytext}{HTML}{000000}    % Degree
+\definecolor{lighttext}{HTML}{000000}   % Address
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+% \photo[round,edge,right]{./examples/profile}
+\name{\textbf{MD. TAUFIQUL HAQUE}}{\textbf{KHAN TUSAR}}
+\position{AI/ML RESEARCHER {\enskip\cdotp\enskip} NLP ENGINEER {\enskip\cdotp\enskip} BACKEND DEVELOPER}
+\address{Dhaka 1750, Bangladesh}
+\mobile{+880 1811 964562}
+\email{taufiqkhantusar@gmail.com}
+% \email{taufiq@lalokalabs.co}
+%\dateofbirth{January 1st, 1970}
+\linkedin{linkedin.com/in/taufiq-khan-tusar/}
+\homepage{https://taufiq.cc/}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium}
+% \kaggle{kaggle-id}
+\github{github.com/taufiq-ai}
+% \github{github.com/taufiq-nlp}
+\googlescholar{fhbEomUAAAAJ}{scholar.google.com/citations?user=fhbEomUAAAAJ}
+%% \firstname and \lastname will be used
+% \extrainfo{extra information}
+
+% \quote{...}
+
+% \pagestyle{myheadings}
+
+% \markright{\textcolor{gray}{\small\thepage}}
+
+%-------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\makecvheader
+\input{cv/summary.tex}
+% \input{cv/experience.tex}
+\input{cv/experience_industry.tex}
+\input{cv/experience_research.tex}
+\input{cv/experience_teaching.tex}
+\input{cv/education.tex}
+\input{cv/publication.tex}
+% \input{cv/research_work.tex}
+% \input{cv/projects_new}
+\input{cv/projects}
+\input{cv/blog_short}
+\input{cv/skills.tex}
+\input{cv/conference}
+\input{cv/community}
+% \input{cv/experience_volunteer}
+\input{cv/achievement.tex}
+\input{cv/extra-curricular.tex}
+\input{cv/certification.tex}
+% \input{cv/languages.tex}
+\input{cv/reference.tex}
+
+\vspace*{\fill}
+\end{document}
