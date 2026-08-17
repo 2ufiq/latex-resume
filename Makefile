@@ -13,4 +13,4 @@ clean:
 	rm -f Resume_Taufiq.aux Resume_Taufiq.log Resume_Taufiq.out Resume_Taufiq.pdf
 	rm -f CV_Taufiq.aux CV_Taufiq.log CV_Taufiq.out CV_Taufiq.pdf
 
-.PHONY: pdf view clean
+.PHONY: resume cv view clean
