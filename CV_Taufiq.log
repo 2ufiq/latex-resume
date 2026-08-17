@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 14:59
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 15:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,14 +849,14 @@ LaTeX Font Info:    ... okay on input line 90.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(39.83368pt, 517.84052pt, 39.83368pt)
-* v-part:(T,H,B)=(42.67912pt, 796.67726pt, 5.69046pt)
+* v-part:(T,H,B)=(35.56593pt, 802.36774pt, 7.11317pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=517.84052pt
-* \textheight=796.67726pt
+* \textheight=802.36774pt
 * \oddsidemargin=-32.43631pt
 * \evensidemargin=-32.43631pt
-* \topmargin=-66.59087pt
+* \topmargin=-73.70406pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -1014,19 +1014,13 @@ Overfull \hbox (3.20001pt too wide) in paragraph at lines 57--71
  []
 
 ) (./sections/memberships.tex) (./sections/extra-curricular.tex)
-(./sections/reference.tex
+(./sections/reference.tex)
 
 Package fancyhdr Warning: \footskip is too small (14.22636pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[3])
-
-Package fancyhdr Warning: \footskip is too small (14.22636pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\footskip}{14.49998pt}.
-
-[4] (../CV_Taufiq.aux)
+[3] (../CV_Taufiq.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -1041,4 +1035,4 @@ Here is how much of TeX's memory you used:
  14 hyphenation exceptions out of 8191
  116i,12n,129p,581b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ../CV_Taufiq.pdf (4 pages).
+Output written on ../CV_Taufiq.pdf (3 pages).
