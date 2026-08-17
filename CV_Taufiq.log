@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 19:35
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 20:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,6 +683,9 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 ))) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
@@ -963,6 +966,8 @@ able
 t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 25.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 25.
 ) (./sections/publication.tex
@@ -970,8 +975,6 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 3.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 4.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 14.
 
 Overfull \hbox (15.48607pt too wide) in paragraph at lines 23--24
 \TU/SourceSansPro(0)/m/n/10 niques on US Airline Twitter Data,” 2021 IEEE ICECI
@@ -981,9 +984,9 @@ T, Khulna, Bangladesh, 2021, pp. 1-4, doi: [][]10.1109/ICECIT54077.2021.9641336
 
 ) (./sections/experience_research.tex) (./sections/experience_industry.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 41.
+(Font)              scaled to size 8.0pt on input line 19.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 41.
+(Font)              scaled to size 8.0pt on input line 19.
 
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
@@ -1005,29 +1008,25 @@ Overfull \hbox (20.1288pt too wide) in alignment at lines 10--40
 [] [] 
  []
 
+) (./sections/projects.tex
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[2]) (./sections/projects.tex
+[2]
 Overfull \hbox (3.7994pt too wide) in paragraph at lines 5--8
 \TU/SourceSansPro(0)/m/n/10 Multi-character AI companion with streaming convers
 ations. Built stateless FastAPI backend with browser-local per-character
  []
 
-) (./sections/volunteering.tex
-Overfull \hbox (3.20001pt too wide) in paragraph at lines 57--71
-   [] 
- []
-
+) (./sections/volunteering.tex) (./sections/memberships.tex
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
 (fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
-[3]) (./sections/memberships.tex) (./sections/extra-curricular.tex)
-(./sections/reference.tex)
+[3]) (./sections/extra-curricular.tex) (./sections/reference.tex)
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1040,12 +1039,12 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33398 strings out of 476878
- 679078 string characters out of 5805250
- 1949627 words of memory out of 5000000
- 54684 multiletter control sequences out of 15000+600000
+ 33421 strings out of 476878
+ 679703 string characters out of 5805250
+ 1950627 words of memory out of 5000000
+ 54703 multiletter control sequences out of 15000+600000
  560903 words of font info for 130 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 116i,12n,129p,581b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,129p,543b,586s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on ../CV_Taufiq.pdf (4 pages).
