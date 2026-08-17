@@ -2,7 +2,7 @@
 % A4 paper size by default, use 'letterpaper' for US letter
 \documentclass[12pt, a4paper]{russell}
 % \usepackage{fontawesome}
-% \usepackage{hyperref}
+\usepackage{hyperref}
 \usepackage{fontawesome5}
 
 % Add this near the top (after \usepackage{fontawesome5})
@@ -31,11 +31,14 @@
 % \definecolor{russell}{HTML}{000000}   %3333ff
 
 % Colors for text
-% Uncomment if you would like to specify your own color
-\definecolor{darktext}{HTML}{050505}    % University name
-\definecolor{text}{HTML}{000000}        % rest of the text 
-\definecolor{graytext}{HTML}{000000}    % Degree
-\definecolor{lighttext}{HTML}{000000}   % Address
+% Override class defaults
+\AtBeginDocument{%
+  \definecolor{darktext}{HTML}{050505}    % University name
+  \colorlet{text}{black}                  % rest of the text
+  \colorlet{graytext}{black}             % Degree
+  \colorlet{lighttext}{black}            % Address
+  \definecolor{Cerulean}{HTML}{0047AB}   % Cobalt — link color
+}
 
 % Set false if you don't want to highlight section with russell color
 \setbool{acvSectionColorHighlight}{true}
