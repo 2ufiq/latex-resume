@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 15:13
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 20:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -683,6 +683,9 @@ Library (tcolorbox): 'tcbskinsjigsaw.code.tex' version '6.2.0'
 ))) (/usr/share/texlive/texmf-dist/tex/latex/parskip/parskip.sty
 Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 )
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2024-01-20 v7.01h Hypertext links for LaTeX
 
@@ -971,15 +974,15 @@ able
 t line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 9.0pt on input line 22.
-) (./sections/products.tex)
-(./sections/projects.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 3.
+(Font)              scaled to size 12.0pt on input line 22.
+) (./sections/products.tex)
+(./sections/projects.tex [1
+
+]
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 11.
- [1
-
-]) (./sections/extracurricular.tex)
+) (./sections/extracurricular.tex)
 (./sections/education.tex) (./sections/publication.tex)
 (./sections/conferences.tex) [2] (../Resume_Taufiq.aux)
  ***********
@@ -988,12 +991,12 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33367 strings out of 476878
- 678014 string characters out of 5805250
- 1952627 words of memory out of 5000000
- 54672 multiletter control sequences out of 15000+600000
+ 33390 strings out of 476878
+ 678639 string characters out of 5805250
+ 1950627 words of memory out of 5000000
+ 54691 multiletter control sequences out of 15000+600000
  560879 words of font info for 127 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 116i,11n,129p,585b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,11n,129p,547b,345s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on ../Resume_Taufiq.pdf (2 pages).
