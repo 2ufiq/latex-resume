@@ -47,6 +47,9 @@
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
 
+% Fix address style — remove italic, use body font
+\renewcommand*{\headeraddressstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\color{text} #1}}
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -87,20 +90,21 @@
 \begin{document}
 
 \makecvheader
-\input{sections/summary.tex}
+% \input{sections/summary.tex}
 \input{sections/education.tex}
 \input{sections/publication.tex}
-\input{sections/experience_research.tex}
-\input{sections/experience_industry.tex}
-\input{sections/experience_additional.tex}
-\input{sections/experience_teaching.tex}
+\input{sections/experience.tex}
+% \input{sections/experience_research.tex}
+% \input{sections/experience_industry.tex}
+% \input{sections/experience_additional.tex}
+% \input{sections/experience_teaching.tex}
 \input{sections/conference.tex}
 \input{sections/achievement.tex}
+\input{sections/tech-events.tex}
 \input{sections/skills.tex}
 \input{sections/projects}
-\input{sections/professional_memberships.tex}
-\input{sections/community}
-\input{sections/tech-events.tex}
+\input{sections/volunteering}
+\input{sections/memberships.tex}
 % \input{sections/certification.tex}
 \input{sections/extra-curricular.tex}
 \input{sections/reference.tex}
