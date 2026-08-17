@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 13:48
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 14:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,8 +939,6 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 94.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 94.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 94.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 94.
 
@@ -957,6 +955,8 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 25.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on inpu
@@ -966,10 +966,20 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 25.
 ) (./sections/publication.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 3.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 12.0pt on input line 14.
-)
-(./sections/experience.tex
+
+Overfull \hbox (15.48607pt too wide) in paragraph at lines 23--24
+\TU/SourceSansPro(0)/m/n/10 niques on US Airline Twitter Data,” 2021 IEEE ICECI
+T, Khulna, Bangladesh, 2021, pp. 1-4, doi: [][]10.1109/ICECIT54077.2021.9641336
+[][].[] 
+ []
+
+) (./sections/experience.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 10.95pt on input line 68.
 
@@ -980,18 +990,14 @@ Package fancyhdr Warning: \footskip is too small (14.22636pt):
 
 [1
 
-]) (./sections/conference.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 4.
-
-Overfull \hbox (6.19292pt too wide) in paragraph at lines 7--8
+]) (./sections/academic_service.tex) (./sections/conference.tex
+Overfull \hbox (6.19292pt too wide) in paragraph at lines 9--10
 []\TU/SourceSansPro(1)/b/n/10 Presenter, \TU/SourceSansPro(0)/m/n/10 Internatio
 nal Conference on Electronics, Communications and Information Technology, 2021,
  Khulna, Bangladesh 
  []
 
-) (./sections/achievement.tex) (./sections/tech-events.tex)
-(./sections/skills.tex
+) (./sections/achievement.tex) (./sections/skills.tex
 Overfull \hbox (20.1288pt too wide) in alignment at lines 10--40
 [] [] 
  []
@@ -1027,10 +1033,10 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33380 strings out of 476878
- 678346 string characters out of 5805250
- 1954627 words of memory out of 5000000
- 54676 multiletter control sequences out of 15000+600000
+ 33382 strings out of 476878
+ 678419 string characters out of 5805250
+ 1955627 words of memory out of 5000000
+ 54677 multiletter control sequences out of 15000+600000
  560887 words of font info for 128 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  116i,12n,129p,581b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s

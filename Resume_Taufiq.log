@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 06:00
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 14:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -939,8 +939,6 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 10.0pt on input line 69.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (Font)              scaled to size 10.0pt on input line 69.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 69.
 LaTeX Font Info:    Font shape `TU/Roboto(1)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 69.
 
@@ -965,6 +963,8 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 11.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 11.0pt on input line 22.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 9.0pt on input line 22.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on inpu
@@ -988,8 +988,8 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33366 strings out of 476878
- 678000 string characters out of 5805250
+ 33367 strings out of 476878
+ 678014 string characters out of 5805250
  1952627 words of memory out of 5000000
  54672 multiletter control sequences out of 15000+600000
  560879 words of font info for 127 fonts, out of 8000000 for 9000
