@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 06:22
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  17 AUG 2026 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,18 +849,18 @@ LaTeX Font Info:    ... okay on input line 84.
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
 * h-part:(L,W,R)=(39.83368pt, 517.84052pt, 39.83368pt)
-* v-part:(T,H,B)=(56.9055pt, 745.46222pt, 42.67912pt)
+* v-part:(T,H,B)=(42.67912pt, 796.67726pt, 5.69046pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
 * \textwidth=517.84052pt
-* \textheight=745.46222pt
+* \textheight=796.67726pt
 * \oddsidemargin=-32.43631pt
 * \evensidemargin=-32.43631pt
-* \topmargin=-52.36449pt
+* \topmargin=-66.59087pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
-* \footskip=22.76228pt
+* \footskip=14.22636pt
 * \marginparwidth=35.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
@@ -953,31 +953,22 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 14.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 14.0pt on input line 4.
-) (./sections/experience_industry.tex
+) (./sections/education.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 11.0pt on input line 22.
+(Font)              scaled to size 11.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 11.0pt on input line 22.
+(Font)              scaled to size 11.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 22.
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sl' in size <9> not avail
 able
 (Font)              Font shape `TU/SourceSansPro(1)/m/it' tried instead on inpu
-t line 22.
+t line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
-(Font)              scaled to size 9.0pt on input line 22.
-)
-(./sections/experience_research.tex) (./sections/experience_additional.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 10.95pt on input line 22.
-
-[1
-
-]) (./sections/experience_teaching.tex) (./sections/education.tex
+(Font)              scaled to size 9.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 25.
-)
-(./sections/publication.tex
+) (./sections/publication.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
@@ -991,10 +982,39 @@ E SIST), Astana, Kazakhstan, 2023, pp. 522-526, doi: [][]10.1109/SIST58284.2023
 .10223507[][]. 
  []
 
-) (./sections/skills.tex
+) (./sections/experience_research.tex) (./sections/experience_industry.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 10.95pt on input line 35.
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[1
+
+]) (./sections/experience_additional.tex) (./sections/experience_teaching.tex) 
+(./sections/conference.tex
+LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
+(Font)              scaled to size 12.0pt on input line 3.
+LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
+(Font)              scaled to size 10.0pt on input line 4.
+
+Overfull \hbox (6.19292pt too wide) in paragraph at lines 7--8
+[]\TU/SourceSansPro(1)/b/n/10 Presenter, \TU/SourceSansPro(0)/m/n/10 Internatio
+nal Conference on Electronics, Communications and Information Technology, 2021,
+ Khulna, Bangladesh 
+ []
+
+) (./sections/achievement.tex) (./sections/skills.tex
 Overfull \hbox (20.1288pt too wide) in alignment at lines 10--40
 [] [] 
  []
+
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
 
 [2]) (./sections/projects.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
@@ -1007,39 +1027,42 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 8.75pt on input line 14.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
 (Font)              scaled to size 8.75pt on input line 16.
-) (./sections/blog_short.tex)
-(./sections/conference.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 9.5pt on input line 7.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 9.5pt on input line 7.
-LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.5pt on input line 7.
-) (./sections/community.tex [3]
+) (./sections/professional_memberships.tex)
+(./sections/community.tex
 Overfull \hbox (3.20001pt too wide) in paragraph at lines 57--71
    [] 
  []
 
-) (./sections/achievement.tex) (./sections/extra-curricular.tex)
-(./sections/certification.tex) (./sections/reference.tex
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[3]) (./sections/tech-events.tex) (./sections/extra-curricular.tex)
+(./sections/reference.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
 (Font)              scaled to size 9.5pt on input line 7.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/b/n' will be
 (Font)              scaled to size 9.5pt on input line 9.
- [4]) [5]
-(../CV_Taufiq.aux)
+)
+
+Package fancyhdr Warning: \footskip is too small (14.22636pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\footskip}{14.49998pt}.
+
+[4] (../CV_Taufiq.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 33435 strings out of 476878
- 680407 string characters out of 5805250
- 1948627 words of memory out of 5000000
- 54707 multiletter control sequences out of 15000+600000
- 560967 words of font info for 138 fonts, out of 8000000 for 9000
+ 33429 strings out of 476878
+ 680299 string characters out of 5805250
+ 1950627 words of memory out of 5000000
+ 54704 multiletter control sequences out of 15000+600000
+ 560959 words of font info for 137 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 116i,11n,129p,781b,558s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 116i,12n,129p,781b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on ../CV_Taufiq.pdf (5 pages).
+Output written on ../CV_Taufiq.pdf (4 pages).
