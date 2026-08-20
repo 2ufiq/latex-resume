@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  20 AUG 2026 02:52
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  20 AUG 2026 19:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1001,9 +1001,9 @@ T, Khulna, Bangladesh, 2021, pp. 1-4, doi: [][]10.1109/ICECIT54077.2021.9641336
 
 ) (./sections/experience_research.tex) (./sections/experience_industry.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 19.
+(Font)              scaled to size 8.0pt on input line 25.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 19.
+(Font)              scaled to size 8.0pt on input line 25.
 
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
