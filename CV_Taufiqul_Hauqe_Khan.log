@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  22 AUG 2026 22:49
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Debian) (preloaded format=xelatex 2026.8.4)  22 AUG 2026 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1021,16 +1021,11 @@ nal Conference on Electronics, Communications and Information Technology, 2021,
  []
 
 ) (./sections/achievement.tex) (./sections/skills.tex
-Overfull \hbox (20.1288pt too wide) in alignment at lines 10--40
+Overfull \hbox (31.77881pt too wide) in alignment at lines 10--40
  [] [] 
  []
 
 ) (./sections/projects.tex
-Overfull \hbox (3.7994pt too wide) in paragraph at lines 5--8
-\TU/SourceSansPro(0)/m/n/10 Multi-character AI companion with streaming convers
-ations. Built stateless FastAPI backend with browser-local per-character
- []
-
 
 Package fancyhdr Warning: \footskip is too small (7.11317pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
