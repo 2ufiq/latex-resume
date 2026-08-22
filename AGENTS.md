@@ -3,10 +3,11 @@
 ## Build
 
 ```bash
-make resume   # builds Resume_Taufiq.pdf (2-pass xelatex)
-make cv       # builds CV_Taufiq.pdf (2-pass xelatex)
-make view     # builds resume + opens PDF
-make clean    # removes all aux/log/pdf artifacts
+make resume    # builds Resume_Taufiq.pdf (2-pass xelatex)
+make cv        # builds CV_Taufiq.pdf (2-pass xelatex)
+make cv-clean  # builds CV_Taufiqul_Hauqe_Khan.pdf (2-pass xelatex)
+make view      # builds resume + opens PDF
+make clean     # removes all aux/log/pdf artifacts
 ```
 
 Requires `xelatex` (TeX Live with `fontspec`, `sourcesanspro`, `roboto`, `fontawesome5`).
@@ -17,6 +18,7 @@ Requires `xelatex` (TeX Live with `fontspec`, `sourcesanspro`, `roboto`, `fontaw
 - `fonts/` — shared Roboto + FontAwesome fonts (referenced as `../fonts/` from subfolders)
 - `resume/` — concise resume (2 pages): `resume.tex` + `sections/*.tex`
 - `full-profile/` — academic-style CV (4-5 pages): `cv.tex` + `sections/*.tex`
+- `clean-profile/` — clean CV variant: `cv-clean.tex` + `sections/*.tex`
 
 ## Build mechanics
 

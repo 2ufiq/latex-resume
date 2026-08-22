@@ -1,0 +1,106 @@
+
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[12pt, a4paper]{russell}
+% \usepackage{fontawesome}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+
+
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=1cm, right=1.4cm, bottom=.5cm, footskip=.25cm}    %Ph.D.
+% \geometry{left=1.25cm, top=1.25cm, right=1.25cm, bottom=.5cm, footskip=.5cm}  % Short  
+% \geometry{left=1.35cm, top=1cm, right=1.35cm, bottom=.5cm, footskip=.5cm}   % long
+
+% Specify the location of the included fonts
+\fontdir[../fonts/]
+
+% Color for highlights
+% russell Colors: russell-emerald, russell-skyblue, russell-red, russell-pink, russell-orange
+%                 russell-nephritis, russell-concrete, russell-darknight, russell-purple
+\colorlet{russell}{russell-darknight}
+% Uncomment if you would like to specify your own color
+% \definecolor{russell}{HTML}{000000}   %3333ff
+
+% Colors for text
+% Override class defaults
+\AtBeginDocument{%
+  \definecolor{darktext}{HTML}{050505}    % University name
+  \colorlet{text}{black}                  % rest of the text
+  \colorlet{graytext}{black}             % Degree
+  \colorlet{lighttext}{black}            % Address
+  \definecolor{Cerulean}{HTML}{0047AB}   % Cobalt — link color
+}
+
+% Set false if you don't want to highlight section with russell color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+% Fix address style — remove italic, use body font
+\renewcommand*{\headeraddressstyle}[1]{{\fontsize{9pt}{1.2em}\bodyfont\color{text} #1}}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[round,edge,right]{../photo.png}
+\name{\textbf{TAUFIQUL HAQUE}}{\textbf{KHAN TUSAR}}
+% \position{Graduate Student {\enskip\cdotp\enskip} AI \& BACKEND ENGINEER}
+\position{AI/ML Researcher {\enskip\cdotp\enskip} AI and Backend Engineer}
+\address{Dhaka 1750, Bangladesh}
+\mobile{+880 1811 964562}
+\email{contact@taufiq.cc}
+% \email{taufiq@lalokalabs.co}
+%\dateofbirth{January 1st, 1970}
+\linkedin{linkedin.com/in/taufiq-khan-tusar/}
+\homepage{https://taufiq.cc/}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium}
+% \kaggle{kaggle-id}
+\github{github.com/2ufiq}
+% \github{github.com/taufiq-nlp}
+\googlescholar{fhbEomUAAAAJ}{scholar.google.com/citations?user=fhbEomUAAAAJ}
+%% \firstname and \lastname will be used
+% \extrainfo{extra information}
+
+% \quote{...}
+
+% \pagestyle{myheadings}
+
+%-------------------------------------------------------------------------------
+
+
+\begin{document}
+
+\makecvfooter{}{}{}
+\makecvheader
+% \input{sections/summary.tex}
+\input{sections/education.tex}
+\input{sections/publication.tex}
+% \input{sections/experience.tex}
+\input{sections/experience_research.tex}
+\input{sections/experience_industry.tex}
+% \input{sections/experience_additional.tex}
+\input{sections/experience_teaching.tex}
+\input{sections/academic_service.tex}
+\input{sections/conference.tex}
+\input{sections/achievement.tex}
+\input{sections/skills.tex}
+\input{sections/projects}
+\input{sections/volunteering}
+% \input{sections/tech-events.tex}
+\input{sections/memberships.tex}
+% \input{sections/certification.tex}
+\input{sections/extra-curricular.tex}
+\input{sections/reference.tex}
+
+\vspace*{\fill}
+\end{document}
