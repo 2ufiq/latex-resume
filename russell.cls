@@ -708,6 +708,8 @@
 \newenvironment{cvskills}{%
   \vspace{\acvSectionContentTopSkip}
   \vspace{-2.0mm}
+  \setlength{\LTpre}{0pt}
+  \setlength{\LTpost}{0pt}
   \setlength\tabcolsep{1ex}
   \setlength{\extrarowheight}{0pt}
   \begin{longtable}{@{\extracolsep{\fill}} r L{\textwidth * \real{0.9}}}
